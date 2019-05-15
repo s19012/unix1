@@ -1,1 +1,1 @@
-find /var/log -name '*.log' -print
+find /usr/log -name '*.log' -print
