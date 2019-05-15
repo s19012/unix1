@@ -1,1 +1,1 @@
-find /home -type d -name '*.vim' -print
+find /home -name '*.vim' -print
