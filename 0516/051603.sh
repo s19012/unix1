@@ -1,1 +1,1 @@
-unalias u1
+echo $SHELL

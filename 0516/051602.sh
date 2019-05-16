@@ -1,1 +1,1 @@
-type u1
+echo $LANG
