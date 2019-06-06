@@ -1,1 +1,1 @@
-cut -d : -f 1 /etc/passwd | echo $USER
+cat /etc/passwd | grep $USER
