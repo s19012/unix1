@@ -4,15 +4,10 @@ usage()
 {
     local script_name=$(basename "$0")
     cat << END
-Usage: $script_name PATTEN [PATH] [NAME_PATH]
-Find file in current directory recursively, and print lines which match PATTEN.
+使い方: $script_name DIRPATH
+DIRPATHで指定したディレクトリ下の読み取り不可ファイルの一覧表示
+DIRPATH - 読み取り不可ファイルの一覧表示を行うディレクトリパスを指定
 
-    PATH          find file in PATH derectory, instead of current directory
-    NAME_PATTEN   specify name patten to find file
-
-Examples:
-    $script_name return
-    $script_name return ~ '*.txt'
 END
 }
 
