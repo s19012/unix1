@@ -8,8 +8,8 @@ usage()
 Usage: $script_name PATTEN [PATH] [NAME_PATTEN]
 Find file in current directory recursively, and print lines which match PATTEN.
 
-    PATH         find file in PATH directory, instead of current directory
-    NAME_PATTEN  specify name patten to find file
+    PATH           find file in PATH directory, instead of current directory
+    NAME_PATTEN    specify name patten to find file
 
 Examples:
     $script_name return
